@@ -23,6 +23,6 @@ if __name__ == "__main__":
         final[giver] = receiver
         receivers.pop(receiver)
 
-        print("final: " + str(final))
+    print("final: " + final)
 
     print(len(set(final.keys())) == len(set(final.values())))
